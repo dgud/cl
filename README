@@ -41,7 +41,7 @@ If you want to build with mingw gcc use:
 CC=gcc rebar compile
 
 NOTE: That mingw64-gcc can not be linked with MSVC libs, see
-http://sourceforge.net/apps/trac/mingw-w64/wiki/Answer%2064%20bit%20MSVC-generated%20x64%20.lib
+https://sourceforge.net/p/mingw-w64/wiki2/Answer%2064%20bit%20MSVC-generated%20x64%20.lib
 Follow the steps there to make a libOpenCL.dll.a and it should work.
 
 NOTE: OpenCL with ATI drivers for CPU usage don't work when erlang
